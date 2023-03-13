@@ -1,6 +1,6 @@
 
 # task 1
-print(("I love Python ") * 42)
+print("I love Python " * 42)
 
 # task 2
 age_in_month = 23 * 12
