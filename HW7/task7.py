@@ -7,11 +7,11 @@ while True:
         new_dict[name] = number
     elif command == "stats":
         print(len(new_dict))
-    elif command == "delete <name>":
+    elif command == "delete":
         del_name = input("Enter a name you want to delete: ")
-        del new_dict[name]
+        del new_dict[del_name]
     elif command == "list":
         print(new_dict)
-    elif command == "show <name>":
+    elif command == "show":
         name = input("Enter a name: ")
         print(new_dict[name])
