@@ -1,0 +1,28 @@
+.my-table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+}
+@media screen and (min-width: 400px){
+    .container {
+        background: rebeccapurple;
+    }
+}
+@media screen and (min-width: 600px){
+    .container {
+        background: green;
+    }
+}
+@media screen and (min-width: 800px){
+    .container {
+        background: darkslategray;
+    }
+}
+
